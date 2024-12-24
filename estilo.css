@@ -1,0 +1,211 @@
+/* Fuentes */
+@font-face {
+    font-family: normal;
+    src: url(fuentes/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: subtitulos;
+    src: url(fuentes/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: titulos;
+    src: url(fuentes/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: italica;
+    src: url(fuentes/Poppins-LightItalic.ttf);
+}
+@font-face {
+    font-family: dancing;
+    src: url(fuentes/DancingScript-Bold.ttf);
+}
+/* variables */
+:root{
+    -color-resalto:rgb(154, 86, 58);
+    -color-normal :black;
+    -color-fondo: rgb(254, 245, 239);
+}
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+
+.icono{
+    width: 50px;
+}
+/* **********NAV********************************** */
+nav{
+    margin: 0%;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-left: 5px;
+    background-color: rgb(254, 245, 239);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 2%;
+}
+nav ul a{
+    text-decoration: none;
+    color:black;
+    font-family: 'normal';
+}
+.M{
+    color:rgb(154, 86, 58);
+    font-family: 'subtitulos';
+}
+.redesNav{
+    display: flex;
+}
+.redesNav img{
+    margin: 1px 4px;
+}
+/* ********PANTALLAZO************************************ */
+.principal{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url('imagenes/main.jpg');
+    filter: brightness();
+    align-items: center;
+    padding: 30% 10%;
+}
+.principal h1{
+    font-family: 'titulos';
+    font-size: 50px;
+}
+.principal h2{
+    color:rgb(154, 86, 58);
+    font-family: 'dancing';
+    font-size: 50px;
+}
+.principal a{
+    padding: 20px 40px;
+    border: 2px solid wheat;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(154, 86, 58) ;
+    text-decoration: none;
+    font-size: 25px;
+}
+.boton:hover {
+    background-color: rgb(244, 223, 164);
+    border-color: black;
+    color: black;
+}
+.boton:focus{
+    background-color: brown;
+}
+.principal p{
+    color: rgb(154, 86, 58);
+    font-family: 'normal';
+    font-size: 20px;
+    text-decoration: overline;
+}
+
+
+/* *****NUESTROS SERVICIOS************************************************ */
+.nuestrosServ{
+    padding: 15% 10%;
+    font-family: 'normal';
+    background-color: rgb(254, 245, 239);
+
+}
+.nuestrosServ h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* **********MATRIZ************************************************************* */
+.casilla img{
+    width: 300px;    
+    border-radius: 20px;
+}
+.grilla{
+     display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'normal';
+}
+.casilla{
+    text-align: center;
+    border: 2px solid rgb(154, 86, 58);
+    padding: 30px 15px;
+    margin: 20px 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+.casilla:hover{
+    background-color: rgb(154, 86, 58) ;
+    color: white;
+    border: 2px solid white;
+}
+
+/* ********Institutos************************************************** */
+.institutos{
+    background-color: rgb(254, 245, 239) ;
+    margin:20px 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.institutos img{
+    width: 180px;
+    border-radius: 30px;
+    border:1px solid black;
+    margin:20px;
+}
+#targetaInsti{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'titulos';
+}
+
+
+/* *********Footer************************************************ */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 102, 102);
+    font-size: 17px;
+    color: white;
+    font-family: 'normal';
+    padding: 20px 80px;
+    text-align: center;
+    align-items: center;
+}
+footer img{
+    width: 100px;
+    margin: 10px;
+}
+footer .icono{
+    width: 70px;
+    margin: 1px 10px;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+@media(max-width:800px){
+    .principal{
+        padding: 40% 10%;
+    }  
+    nav ul {
+        font-size: 13px;
+    }  
+    .icono{
+        width: 30px;
+    }
+}
