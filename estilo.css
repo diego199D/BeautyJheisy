@@ -19,6 +19,10 @@
     font-family: dancing;
     src: url(fuentes/DancingScript-Bold.ttf);
 }
+@font-face {
+    font-family: compacto;
+    src: url(fuentes/BebasNeue-Regular.ttf);
+}
 /* variables */
 :root{
     -color-resalto:rgb(154, 86, 58);
@@ -52,11 +56,11 @@ nav ul{
 nav ul a{
     text-decoration: none;
     color:black;
-    font-family: 'normal';
+    font-family: 'compacto';
+    font-size: 17px;
 }
 .M{
     color:rgb(154, 86, 58);
-    font-family: 'subtitulos';
 }
 .redesNav{
     display: flex;
@@ -69,19 +73,20 @@ nav ul a{
     display: flex;
     flex-direction: column;
     background-size: cover;
-    background-image: url('imagenes/main.jpg');
+    background-image: url('imagenes/fondo3.webp');
     filter: brightness();
     align-items: center;
-    padding: 30% 10%;
+    padding: 20% 10%;
+    text-align: center;
 }
 .principal h1{
     font-family: 'titulos';
     font-size: 50px;
 }
 .principal h2{
-    color:rgb(154, 86, 58);
+    color:rgb(92, 51, 34);
     font-family: 'dancing';
-    font-size: 50px;
+    font-size: 65px;
 }
 .principal a{
     padding: 20px 40px;
@@ -113,6 +118,7 @@ nav ul a{
     padding: 15% 10%;
     font-family: 'normal';
     background-color: rgb(254, 245, 239);
+    text-align: center;
 
 }
 .nuestrosServ h3{
@@ -121,6 +127,12 @@ nav ul a{
     text-align: center;
 }
 
+#extras{
+    margin-top: 10px;
+    text-align: center;
+    color:rgb(92, 51, 34) ;
+    font-family: 'subtitulos';
+}
 /* **********MATRIZ************************************************************* */
 .casilla img{
     width: 300px;    
@@ -142,7 +154,11 @@ nav ul a{
     width: 300px;
     border-radius: 50px;
 }
-.casilla:hover{
+.grilla a{
+    text-decoration: none;
+    color: black;
+}
+a .casilla:hover{
     background-color: rgb(154, 86, 58) ;
     color: white;
     border: 2px solid white;
@@ -197,10 +213,90 @@ footer .icono{
     margin: 1px 10px;
 }
 
+
+
+/* %%%%%%%%CERTIFICADOS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* ***********principal********************************** */
+.principalCertificados{
+    background-image: url(imagenes/graduacion.jpg);
+    background-size: cover;
+    color:white;
+    font-family: 'normal';
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 10%;
+}
+.principalCertificados p{
+    padding: 270px 10%;
+}
+
+/* ******CERTIFICADOS**************************************************** */
+.certificados{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;  
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(254, 245, 239);
+    font-family: 'normal';
+}
+.certificado img{
+    width: 300px;
+    border: 2px solid black;
+    
+}
+.certificado{
+    text-align: center;
+    border: 2px solid rgb(154, 86, 58);
+    border-radius: 30px;
+    width: 70x;
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: white;
+}
+.indicador{
+    font-size: 14px;
+    font-family: Arial;
+    color: rgb(154, 86, 58) ;
+}
+.certificados a{
+    text-decoration: none;
+    color: black;
+}
+a .certificado:hover{
+    background-color: rgb(154, 86, 58) ;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+
+/* %%%%%%%%%%%%%%TRABAJOS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* /******Principal TRABAJO************************** */
+.principalTrabajos{
+    background-image: url(imagenes/trabajo.jpg);
+    background-size: cover;
+    color:white;
+    font-family: 'normal';
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 10%;
+}
+.principalTrabajos p{
+    padding: 270px 10%;
+}
 /* ////////////////////////////////////////////////////////////// */
-@media(max-width:800px){
+@media(max-width:550px){
     .principal{
-        padding: 40% 10%;
+        padding: 30% 10%;
     }  
     nav ul {
         font-size: 13px;
