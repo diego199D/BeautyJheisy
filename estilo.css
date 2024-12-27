@@ -290,10 +290,65 @@ a .certificado:hover{
     flex-direction: column;
     align-items: center;
     padding: 10% 10%;
+    height: 700px;
 }
 .principalTrabajos p{
     padding: 270px 10%;
 }
+
+/* %%%%%%%%%%%%%%%MAQUILLAJES%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% esto tambien reciclo en todas las targetas */
+/* ****PRINCIPAL********************************* */
+.maquillajePrincipal{
+    background-image: url(imagenes/fondo-maquillaje.png);
+    background-size: cover;
+    color: white;
+    font-family: 'normal';
+    padding: 25% 10%;
+    text-align: center;
+}
+.grillaMaquillajes img{
+    width: 150px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.grillaMaquillajes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'normal';
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.targetaMaquillajes{
+    width: 180px;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(254, 245, 239) ;
+}
+.targetaMaquillajes h3{
+    padding-top: 10px;
+}
+
+/* ************PEINADOS PRINCIPAL******************************************* */
+.peinadoPrincipal{
+    background-image: url(imagenes/fondo-peinado.png);
+    background-size: cover;
+    color: white;
+    font-family: 'normal';
+    padding: 25% 10%;
+    text-align: center;
+}
+
+
+
+/* *********GRILLA********************************* */
 /* ////////////////////////////////////////////////////////////// */
 @media(max-width:550px){
     .principal{
