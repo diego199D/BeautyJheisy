@@ -183,6 +183,7 @@ a .casilla:hover{
     display: flex;
     flex-direction: column;
     text-align: center;  
+    align-items: center;
 }
 
 #titulo{
@@ -346,6 +347,25 @@ a .certificado:hover{
     text-align: center;
 }
 
+/* ***********Alisaods principapl************ */
+.alisadoPrincipal{
+    background-image: url(imagenes/fondoAlizado.png);
+    background-size: cover;
+    color: white;
+    font-family: 'normal';
+    padding: 25% 10%;
+    text-align: center;
+}
+
+/* ********EXTENCIONES PRINCIPAL */
+.extencionesPrincipal{
+    background-image: url(imagenes/extencionesFondo.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'normal';
+    padding: 25% 10%;
+    text-align: center;
+}
 
 
 /* *********GRILLA********************************* */
