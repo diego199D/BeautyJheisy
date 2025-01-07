@@ -40,7 +40,6 @@
 }
 /* **********NAV********************************** */
 nav{
-    margin: 0%;
     padding-top: 1px;
     padding-right: 10px;
     padding-left: 5px;
@@ -73,10 +72,9 @@ nav ul a{
     display: flex;
     flex-direction: column;
     background-size: cover;
-    background-image: url('imagenes/fondo3.webp');
-    filter: brightness();
+    background-image: url('imagenes/fondo3.jpg');
     align-items: center;
-    padding: 20% 10%;
+    padding: 10%;
     text-align: center;
 }
 .principal h1{
@@ -115,7 +113,7 @@ nav ul a{
 
 /* *****NUESTROS SERVICIOS************************************************ */
 .nuestrosServ{
-    padding: 15% 10%;
+    padding:10%;
     font-family: 'normal';
     background-color: rgb(254, 245, 239);
     text-align: center;
@@ -153,6 +151,7 @@ nav ul a{
     height: 300px;
     width: 300px;
     border-radius: 50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
 }
 .grilla a{
     text-decoration: none;
@@ -213,6 +212,11 @@ footer .icono{
     width: 70px;
     margin: 1px 10px;
 }
+#logoF{
+    box-shadow: 0 3px 10px rgb(255 215 0 / 0.7);
+    border-radius: 50%;
+}
+
 
 
 
