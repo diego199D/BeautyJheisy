@@ -60,6 +60,7 @@ body{
 }
 #M{
     color:rgb(154, 86, 58);
+    border-bottom: 1px solid rgb(154, 86, 58);
 }
 
 .lista .imagenes-nav img{
@@ -268,12 +269,13 @@ footer .icono{
 /* ******CERTIFICADOS**************************************************** */
 .certificados{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 20px 10px;  
-    align-items: center;
     justify-content: center; 
     background-color: rgb(254, 245, 239);
     font-family: 'normal';
+    padding: 0 20%;
 }
 .certificado img{
     width: 250px;
@@ -289,6 +291,7 @@ footer .icono{
     padding: 15px;
     background-color: white;
     width: 300px;
+    box-shadow: 3px 5px 15px black;
 }
 .indicador{
     font-size: 14px;
