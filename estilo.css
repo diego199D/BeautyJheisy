@@ -438,12 +438,12 @@ a .certificado:hover{
     }
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     .principal h1{
         font-size: 35px;
     }
     .principal h2{
-        font-size: 50px;
+        font-size: 60px;
     }
     .principal h9{
         font-size: 10px;
