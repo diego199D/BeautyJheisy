@@ -165,7 +165,7 @@ body{
 }
 /* **********MATRIZ************************************************************* */
 .casilla img{
-    width: 300px;    
+    width: 280px;    
     border-radius: 20px;
 }
 .grilla{
@@ -181,7 +181,7 @@ body{
     padding: 30px 15px;
     margin: 20px 30px;
     height: 350px;
-    width: 310px;
+    width: 280px;
     border-radius: 50px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
 }
@@ -437,5 +437,20 @@ a .certificado:hover{
     .nave .lista{
         margin: 0 10px;
         width: 95%;
+    }
+}
+
+@media(max-width:400px){
+    .principal h1{
+        font-size: 35px;
+    }
+    .principal h2{
+        font-size: 50px;
+    }
+    .principal h9{
+        font-size: 10px;
+    }
+    .nave .lista a{
+        font-size: 15px;
     }
 }
