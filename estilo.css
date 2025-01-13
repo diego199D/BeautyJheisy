@@ -429,26 +429,29 @@ a .certificado:hover{
     .nave{
         padding: 5px 2px;
     }
-}
 
-@media(max-width:800px){
-    .nave .lista{
-        margin: 0 10px;
-        width: 95%;
-    }
-}
-
-@media(max-width:450px){
     .principal h1{
         font-size: 35px;
     }
     .principal h2{
         font-size: 60px;
     }
-    .principal h9{
-        font-size: 10px;
+
+    .principal a{
+        padding: 10px 20px;
+        border: 2px solid wheat;
+        border-radius: 20px;
+        color: white;
+        background-color: rgb(154, 86, 58) ;
+        text-decoration: none;
+        font-size: 25px;
+        transition: 0.3s;
     }
-    .nave .lista a{
-        font-size: 15px;
+}
+
+@media(max-width:800px){
+    .nave .lista{
+        margin: 0 10px;
+        width: 95%;
     }
 }
