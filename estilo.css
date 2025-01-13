@@ -84,6 +84,7 @@ body{
     padding: 10px;
     text-align: center;
     min-height: 95vh;
+    overflow-y: auto;
 }
 .principal h1{
     font-family: 'titulos';
