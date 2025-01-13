@@ -83,7 +83,7 @@ body{
     align-items: center;
     padding: 10px;
     text-align: center;
-    height: 95vh;
+    min-height: 95vh;
 }
 .principal h1{
     font-family: 'titulos';
@@ -420,8 +420,8 @@ a .certificado:hover{
 /* *********GRILLA********************************* */
 /* ////////////////////////////////////////////////////////////// */
 @media(max-width:550px){
-    .nave {
-        font-size: 13px;
+    .nave .lista a {
+        font-size: 15px;
     }  
     .icono{
         width: 35px;
@@ -438,7 +438,7 @@ a .certificado:hover{
     }
 
     .principal a{
-        padding: 10px 20px;
+        padding: 15px 25px;
         border: 2px solid wheat;
         border-radius: 20px;
         color: white;
