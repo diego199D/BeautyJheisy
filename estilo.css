@@ -185,6 +185,7 @@ body{
     width: 280px;
     border-radius: 50px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+    transition: 0.3s;
 }
 .grilla a{
     text-decoration: none;
@@ -194,6 +195,7 @@ a .casilla:hover{
     background-color: rgb(154, 86, 58) ;
     color: white;
     border: 2px solid white;
+    transform: scale(1.05);
 }
 
 /* ********Institutos************************************************** */
@@ -293,6 +295,7 @@ footer .icono{
     background-color: white;
     width: 300px;
     box-shadow: 3px 5px 15px black;
+    transition: 0.3s;
 }
 .indicador{
     font-size: 14px;
@@ -307,6 +310,7 @@ a .certificado:hover{
     background-color: rgb(154, 86, 58) ;
     color: white;
     border: 2px solid white;
+    transform: scale(1.05);
 }
 
 
